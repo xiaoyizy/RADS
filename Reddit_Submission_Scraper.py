@@ -28,7 +28,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>RADS/README.md at master · rb2540/RADS</title>
+  <title>RADS/Reddit_Submission_Scraper.py at master · rb2540/RADS</title>
     <meta name="description" content="Contribute to rb2540/RADS development by creating an account on GitHub.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -38,10 +38,10 @@
     <meta property="og:image" content="https://avatars3.githubusercontent.com/u/22972257?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="rb2540/RADS" /><meta property="og:url" content="https://github.com/rb2540/RADS" /><meta property="og:description" content="Contribute to rb2540/RADS development by creating an account on GitHub." />
 
   <link rel="assets" href="https://github.githubassets.com/">
-  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MzY3NTU1NTI1OjE1MmY4MzIzODVhY2MyZDEwZDExMjc3NGRlMDdkN2RkOWRhNWFhNDA2NTE4YjliODUwZTMxZjc5Nzk0YzkzNDc=--5b386ee2c255f903b8f2b2da6c7e468f35aed3f1">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MzY3NTU1NTI1OjU4YjljZWJhZTk4MjkzYjNiMGQwZTcyZWMzODFkMTQ0MGYzOWZjMTQ5NDc2MjYzZWJjZDEyMTE4ODI5NmE4ZGM=--e732e51b7b3922fcf771d82df10e2dbd4c540fa5">
   <meta name="pjax-timeout" content="1000">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
-  <meta name="request-id" content="DF72:28AA:7F5CB5:107CB08:5C85E84E" data-pjax-transient>
+  <meta name="request-id" content="DF72:28AA:7F6046:107CB22:5C85E84E" data-pjax-transient>
 
 
   
@@ -52,7 +52,7 @@
     <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
 
-  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="DF72:28AA:7F5CB5:107CB08:5C85E84E" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-actor-id" content="22972257" /><meta name="octolytics-actor-login" content="rb2540" /><meta name="octolytics-actor-hash" content="61618f6b0c5dbd86dd35d17915e87ff411207cd5d4833136476df7bb3da63cbb" />
+  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="DF72:28AA:7F6046:107CB22:5C85E84E" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-actor-id" content="22972257" /><meta name="octolytics-actor-login" content="rb2540" /><meta name="octolytics-actor-hash" content="61618f6b0c5dbd86dd35d17915e87ff411207cd5d4833136476df7bb3da63cbb" />
 <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
 
 
@@ -71,7 +71,7 @@
     <meta name="user-login" content="rb2540">
 
       <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="ZTkzMjIyZDRjZTlhZTI5MzA4MGVjZmY2NTgxNDljZWNmZTM2ZTc5MTY1NGU2YmVhYTc5ZjYxZmQ2NDVjYTI3Nnx7InJlbW90ZV9hZGRyZXNzIjoiNzQuMTA4LjIyNC4xMTUiLCJyZXF1ZXN0X2lkIjoiREY3MjoyOEFBOjdGNUNCNToxMDdDQjA4OjVDODVFODRFIiwidGltZXN0YW1wIjoxNTUyMjc5NjMwLCJob3N0IjoiZ2l0aHViLmNvbSJ9">
+    <meta name="js-proxy-site-detection-payload" content="NTI0Zjc4ZGI3ZjczMmYxYTRmNzQ1NmRmOWJkYTU1OTVmMjNlNDhiNGVhZWJiYjIwNmQ0MjU3OWZkOTViYjE0MHx7InJlbW90ZV9hZGRyZXNzIjoiNzQuMTA4LjIyNC4xMTUiLCJyZXF1ZXN0X2lkIjoiREY3MjoyOEFBOjdGNjA0NjoxMDdDQjIyOjVDODVFODRFIiwidGltZXN0YW1wIjoxNTUyMjc5NjU2LCJob3N0IjoiZ2l0aHViLmNvbSJ9">
 
     <meta name="enabled-features" content="UNIVERSE_BANNER,MARKETPLACE_SOCIAL_PROOF,MARKETPLACE_PLAN_RESTRICTION_EDITOR,NOTIFY_ON_BLOCK,RELATED_ISSUES,MARKETPLACE_BROWSING_V2">
 
@@ -87,7 +87,7 @@
   <meta name="octolytics-dimension-user_id" content="22972257" /><meta name="octolytics-dimension-user_login" content="rb2540" /><meta name="octolytics-dimension-repository_id" content="160831317" /><meta name="octolytics-dimension-repository_nwo" content="rb2540/RADS" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="160831317" /><meta name="octolytics-dimension-repository_network_root_nwo" content="rb2540/RADS" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="true" />
 
 
-    <link rel="canonical" href="https://github.com/rb2540/RADS/blob/master/README.md" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/rb2540/RADS/blob/master/Reddit_Submission_Scraper.py" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -157,7 +157,7 @@
           aria-autocomplete="list"
           aria-controls="jump-to-results"
           aria-label="Search or jump to…"
-          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=64FSD2YUbkZiu/x/jYQc0cKn6Mnbr6nUCpc/PeGnJe+Wpaxxx/Lr7PNYqt9qYbq66q20+cbM15XX6hXZLD2BWA=="
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=dg1/rVuQOhGSba2u4nC8cuj9fvYVUIBGLe1dR6cbvFALKYHT+na/uwOO+w4FlRoZwPcixggz/gfwkHejaoEY5w=="
           spellcheck="false"
           autocomplete="off"
           >
@@ -376,7 +376,7 @@
           
 <div class="js-user-status-container user-status-compact" data-team-hovercards-enabled>
   <details class="js-user-status-details details-reset details-overlay details-overlay-dark">
-    <summary class="btn-link no-underline js-toggle-user-status-edit toggle-user-status-edit width-full" aria-haspopup="dialog" role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:22972257,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:22972257,&quot;client_id&quot;:&quot;1172136023.1532464004&quot;,&quot;originating_request_id&quot;:&quot;DF72:28AA:7F5CB5:107CB08:5C85E84E&quot;,&quot;originating_url&quot;:&quot;https://github.com/rb2540/RADS/blob/master/README.md&quot;}}" data-hydro-click-hmac="115cb775e6e52f6d9a2267e1d47c3ebdb02be5b90f5f4db6b82f48fde7200352">
+    <summary class="btn-link no-underline js-toggle-user-status-edit toggle-user-status-edit width-full" aria-haspopup="dialog" role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:22972257,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:22972257,&quot;client_id&quot;:&quot;1172136023.1532464004&quot;,&quot;originating_request_id&quot;:&quot;DF72:28AA:7F6046:107CB22:5C85E84E&quot;,&quot;originating_url&quot;:&quot;https://github.com/rb2540/RADS/blob/master/Reddit_Submission_Scraper.py&quot;}}" data-hydro-click-hmac="39ad832f9e4573acf0f33bc7a63182470904be67e748b70631e68aa1b59c8cb1">
       <div class="f6 d-inline-block v-align-middle  user-status-emoji-only-header pl-0 circle lh-condensed user-status-header " style="max-width: 29px">
         <div class="user-status-emoji-container flex-shrink-0 mr-1">
           <svg class="octicon octicon-smiley" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zm4.81 12.81a6.72 6.72 0 0 1-2.17 1.45c-.83.36-1.72.53-2.64.53-.92 0-1.81-.17-2.64-.53-.81-.34-1.55-.83-2.17-1.45a6.773 6.773 0 0 1-1.45-2.17A6.59 6.59 0 0 1 1.21 8c0-.92.17-1.81.53-2.64.34-.81.83-1.55 1.45-2.17.62-.62 1.36-1.11 2.17-1.45A6.59 6.59 0 0 1 8 1.21c.92 0 1.81.17 2.64.53.81.34 1.55.83 2.17 1.45.62.62 1.11 1.36 1.45 2.17.36.83.53 1.72.53 2.64 0 .92-.17 1.81-.53 2.64-.34.81-.83 1.55-1.45 2.17zM4 6.8v-.59c0-.66.53-1.19 1.2-1.19h.59c.66 0 1.19.53 1.19 1.19v.59c0 .67-.53 1.2-1.19 1.2H5.2C4.53 8 4 7.47 4 6.8zm5 0v-.59c0-.66.53-1.19 1.2-1.19h.59c.66 0 1.19.53 1.19 1.19v.59c0 .67-.53 1.2-1.19 1.2h-.59C9.53 8 9 7.47 9 6.8zm4 3.2c-.72 1.88-2.91 3-5 3s-4.28-1.13-5-3c-.14-.39.23-1 .66-1h8.59c.41 0 .89.61.75 1z"/></svg>
@@ -386,7 +386,7 @@
           <span class="link-gray">Set your status</span>
       </div>
 </summary>    <details-dialog class="details-dialog rounded-1 anim-fade-in fast Box Box--overlay" role="dialog" tabindex="-1">
-      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="s+kGvxGh8u31a/o3bvpIieuncYtlo9xuqAKJmxMJoZfTrXi8RRNgFAsNXAOyxobaHjiXyPgpiVFky8rr+rf/lg==" />
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="nz6l5+x0Gy4ivp/9IFZIBGNmRTxD5+mGEjEwcDdoahH/etvkuMaJ19zYOcn8aoZXlvmjf95tvLne+HMA3tY0EA==" />
         <div class="Box-header bg-gray border-bottom p-3">
           <button class="Box-btn-octicon js-toggle-user-status-edit btn-octicon float-right" type="reset" aria-label="Close dialog" data-close-dialog>
             <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
@@ -502,7 +502,7 @@
         <div role="none" class="dropdown-divider"></div>
         <a role="menuitem" class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">Help</a>
         <a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">Settings</a>
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="k21Qnh5OAKBvXFgy3fh0yAqqC0GjlslEErXcSmFQXXETpxA+LYrRVneIKy55oXBwlET35TxnRxMLR22+lhAk7w==" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ehUyr7TuCTOtKO99/L6qVvQWXFgv6LN96XEqFGYrNlT633IPhyrYxbX8nGFY567uavig/LAZPSrwg5vgkWtPyg==" />
           
           <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" role="menuitem">
             Sign out
@@ -514,7 +514,7 @@
 
 
 
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="sr-only right-0" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="7sCVFy/+oKxeiGf9JYodcPw1ywvAHcnYq+2MvvJNSERuCtW3HDpxWkZcFOGB0xnIYts3r1/sR4+yHz1KBQ0x2g==" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="sr-only right-0" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="qzwNd3ZAfw8pN4sEEU5u8VnVlXyUc8JGSd86kVWsRDYr9k3XRYSu+THj+Bi1F2pJxztp2AuCTBFQLYtlouw9qA==" />
           <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -556,10 +556,10 @@
 
 
   <li>
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="EpXBqIdEWnaaqdeaaoT+VlkkXyUskedKmCFisOtSrGoziPk1GWnnjFW0DiW70/W0NSW8JM3/vmvHfGpnjP3CsA==" />      <input type="hidden" name="repository_id" id="repository_id" value="160831317" class="form-control" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="+0ZFLXICb52GAtzXmHKzfqrTBdoksxdOmcYBD2Yx4iPaW32w7C/SZ0kfBWhJJbicxtLm28XdTm/GmwnYAZ6M+Q==" />      <input type="hidden" name="repository_id" id="repository_id" value="160831317" class="form-control" />
 
       <details class="details-reset details-overlay select-menu float-left">
-        <summary class="btn btn-sm btn-with-count select-menu-button" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;user_id&quot;:22972257,&quot;record_id&quot;:160831317,&quot;client_id&quot;:&quot;1172136023.1532464004&quot;,&quot;originating_request_id&quot;:&quot;DF72:28AA:7F5CB5:107CB08:5C85E84E&quot;,&quot;originating_url&quot;:&quot;https://github.com/rb2540/RADS/blob/master/README.md&quot;}}" data-hydro-click-hmac="d3d341ba15f246f3e93b07db34c092e7a5840185b0ced657c8521bcdd131b6a4" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
+        <summary class="btn btn-sm btn-with-count select-menu-button" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;user_id&quot;:22972257,&quot;record_id&quot;:160831317,&quot;client_id&quot;:&quot;1172136023.1532464004&quot;,&quot;originating_request_id&quot;:&quot;DF72:28AA:7F6046:107CB22:5C85E84E&quot;,&quot;originating_url&quot;:&quot;https://github.com/rb2540/RADS/blob/master/Reddit_Submission_Scraper.py&quot;}}" data-hydro-click-hmac="54e9ced027c8225a06b0f0023d04bf2beef7f770a61f0b4309dc1d468a458776" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
               <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
               Watch
           </span>
@@ -628,18 +628,18 @@
 
   <li>
       <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/rb2540/RADS/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="SBY3v5Hy67MfMw98UFo0YHj6OfLojBZQR9YKzOxHilnFX3NCHHQoSGsWZPh9fssn8Sy2UL1tBoabK3ZvRBFgiw==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/rb2540/RADS/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Dou6rLVRRX+Oy3bwcdQtJy4fukrmUWBBtKNC6purc7iDwv5RONeGhPruHXRc8NJgp8k16LOwcJdoXj5JM/2Zag==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar rb2540/RADS" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;user_id&quot;:22972257,&quot;record_id&quot;:160831317,&quot;client_id&quot;:&quot;1172136023.1532464004&quot;,&quot;originating_request_id&quot;:&quot;DF72:28AA:7F5CB5:107CB08:5C85E84E&quot;,&quot;originating_url&quot;:&quot;https://github.com/rb2540/RADS/blob/master/README.md&quot;}}" data-hydro-click-hmac="2cfbc4af7d58d8ae9151f5843d6fd21ddcdd05fab62365db78623e621013861f" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar rb2540/RADS" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;user_id&quot;:22972257,&quot;record_id&quot;:160831317,&quot;client_id&quot;:&quot;1172136023.1532464004&quot;,&quot;originating_request_id&quot;:&quot;DF72:28AA:7F6046:107CB22:5C85E84E&quot;,&quot;originating_url&quot;:&quot;https://github.com/rb2540/RADS/blob/master/Reddit_Submission_Scraper.py&quot;}}" data-hydro-click-hmac="00fd898dbc2bacbb7d4972f4f9c319185c96273962b00776b9b204411a43dbc3" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
         Unstar
 </button>        <a class="social-count js-social-count" href="/rb2540/RADS/stargazers"
            aria-label="0 users starred this repository">
           0
         </a>
 </form>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/rb2540/RADS/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="A4EA9i8IxbcPQavAf4oZxbyLasJVkjJfGZ45wbggXMNqu9B6X0dEtXPkdT2V6KnKD4wjfIP8129p1jSqfAoyRA==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/rb2540/RADS/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="fdeD7dDShYS5PfSaYYhabLrl7qTW9HEDqSg6RCR3U+oU7VNhoJ0EhsWYKmeL6upjCeKnGgCalDPZYDcv4F09bQ==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star rb2540/RADS" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;user_id&quot;:22972257,&quot;record_id&quot;:160831317,&quot;client_id&quot;:&quot;1172136023.1532464004&quot;,&quot;originating_request_id&quot;:&quot;DF72:28AA:7F5CB5:107CB08:5C85E84E&quot;,&quot;originating_url&quot;:&quot;https://github.com/rb2540/RADS/blob/master/README.md&quot;}}" data-hydro-click-hmac="85dc8b3f724e03400b1704557f806aa275d710585f9d26e7ec7683862f5e69a7" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star rb2540/RADS" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;user_id&quot;:22972257,&quot;record_id&quot;:160831317,&quot;client_id&quot;:&quot;1172136023.1532464004&quot;,&quot;originating_request_id&quot;:&quot;DF72:28AA:7F6046:107CB22:5C85E84E&quot;,&quot;originating_url&quot;:&quot;https://github.com/rb2540/RADS/blob/master/Reddit_Submission_Scraper.py&quot;}}" data-hydro-click-hmac="bf799fc22a12aab8f4a5120c8f9bc49c98bb9f5456b78d668be262c8837a5446" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
         Star
 </button>        <a class="social-count js-social-count" href="/rb2540/RADS/stargazers"
            aria-label="0 users starred this repository">
@@ -732,9 +732,9 @@
 
 
   
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/rb2540/RADS/blob/1e1d321a18e8ead96141879a5c1f088e8ac1bdb2/README.md">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/rb2540/RADS/blob/1e1d321a18e8ead96141879a5c1f088e8ac1bdb2/Reddit_Submission_Scraper.py">Permalink</a>
 
-    <!-- blob contrib key: blob_contributors:v21:d6e9494b27bdcbd5b7e49a8aecfd7e40 -->
+    <!-- blob contrib key: blob_contributors:v21:261e9ee48f857633f556e6050d4a0b70 -->
 
     
 
@@ -749,7 +749,7 @@
     <span class="css-truncate-target">master</span>
   </summary>
 
-  <details-menu class="select-menu-modal position-absolute" style="z-index: 99;" src="/rb2540/RADS/ref-list/master/README.md?source_action=show&amp;source_controller=blob" preload>
+  <details-menu class="select-menu-modal position-absolute" style="z-index: 99;" src="/rb2540/RADS/ref-list/master/Reddit_Submission_Scraper.py?source_action=show&amp;source_controller=blob" preload>
     <include-fragment class="select-menu-loading-overlay anim-pulse">
       <svg height="32" class="octicon octicon-octoface" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"/></svg>
     </include-fragment>
@@ -768,7 +768,7 @@
         </clipboard-copy>
       </div>
       <div id="blob-path" class="breadcrumb">
-        <span class="repo-root js-repo-root"><span class="js-path-segment"><a data-pjax="true" href="/rb2540/RADS"><span>RADS</span></a></span></span><span class="separator">/</span><strong class="final-path">README.md</strong>
+        <span class="repo-root js-repo-root"><span class="js-path-segment"><a data-pjax="true" href="/rb2540/RADS"><span>RADS</span></a></span></span><span class="separator">/</span><strong class="final-path">Reddit_Submission_Scraper.py</strong>
       </div>
     </div>
 
@@ -780,13 +780,13 @@
         <span class="pr-md-4">
           <a rel="author" data-skip-pjax="true" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=22972257" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/rb2540"><img class="avatar" src="https://avatars1.githubusercontent.com/u/22972257?s=40&amp;v=4" width="20" height="20" alt="@rb2540" /></a>
           <a class="user-mention" rel="author" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=22972257" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/rb2540">rb2540</a>
-            <a data-pjax="true" title="Update README.md" class="message" href="/rb2540/RADS/commit/68231cbe6d1996f47d34c3b62a9405894214dbf8">Update README.md</a>
+            <a data-pjax="true" title="Add files via upload" class="message" href="/rb2540/RADS/commit/162de415c267205c4c61710e68ad7f2e771e50d8">Add files via upload</a>
         </span>
         <span class="d-inline-block flex-shrink-0 v-align-bottom ">
-          <a class="commit-tease-sha pr-2" href="/rb2540/RADS/commit/68231cbe6d1996f47d34c3b62a9405894214dbf8" data-pjax>
-            68231cb
+          <a class="commit-tease-sha pr-2" href="/rb2540/RADS/commit/162de415c267205c4c61710e68ad7f2e771e50d8" data-pjax>
+            162de41
           </a>
-          <relative-time datetime="2019-03-11T04:31:05Z">Mar 11, 2019</relative-time>
+          <relative-time datetime="2019-03-11T03:10:09Z">Mar 10, 2019</relative-time>
         </span>
       </div>
 
@@ -833,17 +833,17 @@
 <div class="file-header ">
 
   <div class="file-info float-left ">
-      72 lines (48 sloc)
+      138 lines (123 sloc)
       <span class="file-info-divider"></span>
-    3.7 KB
+    5.6 KB
   </div>
 
   <div class="file-actions d-flex ">
 
     <div class="BtnGroup">
-      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/rb2540/RADS/raw/master/README.md">Raw</a>
-        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/rb2540/RADS/blame/master/README.md">Blame</a>
-      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/rb2540/RADS/commits/master/README.md">History</a>
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/rb2540/RADS/raw/master/Reddit_Submission_Scraper.py">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/rb2540/RADS/blame/master/Reddit_Submission_Scraper.py">Blame</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/rb2540/RADS/commits/master/Reddit_Submission_Scraper.py">History</a>
     </div>
 
 
@@ -855,13 +855,13 @@
                 <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
             </a>
 
-            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/rb2540/RADS/edit/master/README.md" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ld7BzSK6hydpEogkNF9ITnSY/YRnzWAhNtnHdUDaLdsOiaSy3/u3bZn4U2S7Zd7hIoEJW9vy0zWuKs7H9vTq9A==" />
+            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/rb2540/RADS/edit/master/Reddit_Submission_Scraper.py" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="LCCeyHyp0T3W0+w5X4C4motdKnJ69iYKmn6wV/GTiutk9UrcT/XapYzY+iEfMi/fSn9fSwf3r+btQL6gmGDIyQ==" />
               <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
                 aria-label="Edit this file" data-hotkey="e" data-disable-with>
                 <svg class="octicon octicon-pencil" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
               </button>
 </form>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/rb2540/RADS/delete/master/README.md" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="pUKVV0wxSqcXOGK/JELBY59dao0SLEtKTFgkW8qtogMrtlLvFxsXjVl4DhdEU0zz0BHoUs5A/l3lJaTKNUkY4g==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/rb2540/RADS/delete/master/Reddit_Submission_Scraper.py" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="7Ob/l1Bj0M7GpHYV5YYrP2tLP0+WlWxogOIAHUA+G0Mqe+oSVKLEWUtKgDNdCkmXJ2BUDozOJ8xYJLPfVzIvMA==" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
               aria-label="Delete this file" data-disable-with>
               <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
@@ -871,72 +871,588 @@
 </div>
 
       
-  <div id="readme" class="readme blob instapaper_body js-code-block-container">
-    <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-reddit-score-forecast" class="anchor" aria-hidden="true" href="#reddit-score-forecast"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Reddit Score Forecast</h1>
-<hr>
-<p>Content aggregators collect content from across the web in order to attract internet traffic, creating revenue through advertisements. These aggregator websites compete to identify viral content early to maximize their share of the internet traffic. This project focused on analyzing real-time post data from Reddit, a collection of re-posts and original content, to identify posts that would become viral. The problem was framed as a binary classification problem where a viral Reddit post had a score equal or greater than 3656. In order to predict posts which posts will become viral, logistic regression and random forest models were run on Reddit submission data obtained from several days of continuously scraping data. In addition to hyperparameter tuning and feature engineering, one hot encoding using character-embedding was stacked onto the classification models to further improve model performance. The models provide reliable predictions of potentially viral posts, laying the foundation for building a robust and computationally-efficient pipeline in a real business setting.</p>
-<h2><a id="user-content-table-of-contents" class="anchor" aria-hidden="true" href="#table-of-contents"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Table of contents</h2>
-<hr>
-<ul>
-<li><a href="#reddit-submission-scraper">Reddit Submission Scraper</a></li>
-<li><a href="#requirements">Requirements</a></li>
-<li><a href="#configuration">Configuration</a></li>
-<li><a href="#authors">Authors</a></li>
-</ul>
-<h2><a id="user-content-reddit-submission-scraper" class="anchor" aria-hidden="true" href="#reddit-submission-scraper"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Reddit Submission Scraper</h2>
-<hr>
-<p>This script scrapes Reddit submissions in real-time, from a list of specified subreddits, and gets updated
-values for the fields of each submission at specified time intervals. The script creates two CSV files.
-The first file, called "stream_[date]<em>[time]" contains every unique submission created while the script was
-running, on a separate row. The second file, called "score</em>[date]_[time]", contains a separate row for each
-submission in the first file, at a given time interval.</p>
-<h2><a id="user-content-requirements" class="anchor" aria-hidden="true" href="#requirements"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Requirements</h2>
-<hr>
-<p>This script was written in Python 3.6 and utilizes PRAW, the Python Reddit API Wrapper. PRAW can be installed
-from the command line with pip.</p>
-<p>A consistent internet connection must be maintained at all times while running this script. Re-running will
-cause the script to start over and create two new csv files. It will not continue checking submissions from a
-previous run for which it did not collect the full 24-hours of data.</p>
-<p>Accessing the Reddit API and using this script requires a Reddit account. After making a reddit account, you
-must also create a Reddit application by going to the "apps" tab in Preferences. The application-type selected
-should be "script". Once your app is created, the following values must be used for the script:</p>
-<ul>
-<li>client_id</li>
-<li>client_secret</li>
-<li>username</li>
-<li>password</li>
-</ul>
-<p>These values are entered when creating a Reddit instance, as in the load_reddit() function in this script.
-A "user_agent" must also entered. This is a unique identifier that helps Reddit determine the source of network
-requests. The PRAW's documentation suggest the following format for user agent:</p>
-<ul>
-<li>&lt;platform&gt;:&lt;app ID&gt;:&lt;version string&gt; (by /u/)</li>
-</ul>
-<p>For example:</p>
-<ul>
-<li>windows:myredditapp:v1.2.3 (by /u/RedditUser)</li>
-</ul>
-<h2><a id="user-content-configuration" class="anchor" aria-hidden="true" href="#configuration"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Configuration</h2>
-<hr>
-<ul>
-<li>
-<p>Configure the reddit instance using the above instructions</p>
-</li>
-<li>
-<p>If different time intervals for checking submissions are required, adjust the times in the 'mins_list'
-variable as needed</p>
-</li>
-<li>
-<p>Selecting the subreddits to scrape can be specified as a command-line argument, or hard-coded. This is
-set in main(). The script already uses hard-coded subreddits. Simply change the 'subred' string to contain
-subreddits you wish to scrape, with each subreddit separated by a '+'. The command-line method is included
-but commented out.</p>
-</li>
-</ul>
-<h2><a id="user-content-authors" class="anchor" aria-hidden="true" href="#authors"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Authors</h2>
-<hr>
-<p>Developed by Ross Bernstein, Brian Kelly, Jatin Khilnani and Xiaoyi Zhang</p>
-</article>
+
+  <div itemprop="text" class="blob-wrapper data type-python ">
+      
+<table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-s"><span class="pl-pds">&#39;&#39;&#39;</span> Reddit Submission Scraper -- This script gets every new submission from the specified</span></td>
+      </tr>
+      <tr>
+        <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="LC2" class="blob-code blob-code-inner js-file-line"><span class="pl-s">subreddits and creates two csv files. The first file contains every unique submission, created</span></td>
+      </tr>
+      <tr>
+        <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="LC3" class="blob-code blob-code-inner js-file-line"><span class="pl-s">while the script was running, on a separate row. The second file contains every submission</span></td>
+      </tr>
+      <tr>
+        <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="LC4" class="blob-code blob-code-inner js-file-line"><span class="pl-s">in the first file, with separate rows for the values at each time interval (i.e, score, num_comments, etc.).</span></td>
+      </tr>
+      <tr>
+        <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td id="LC5" class="blob-code blob-code-inner js-file-line"><span class="pl-s"><span class="pl-pds">&#39;&#39;&#39;</span></span></td>
+      </tr>
+      <tr>
+        <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td id="LC6" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
+        <td id="LC7" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> traceback</td>
+      </tr>
+      <tr>
+        <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
+        <td id="LC8" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> multiprocessing <span class="pl-k">as</span> mp</td>
+      </tr>
+      <tr>
+        <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
+        <td id="LC9" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> csv</td>
+      </tr>
+      <tr>
+        <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
+        <td id="LC10" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> queue</td>
+      </tr>
+      <tr>
+        <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
+        <td id="LC11" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> sys</td>
+      </tr>
+      <tr>
+        <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
+        <td id="LC12" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> praw</td>
+      </tr>
+      <tr>
+        <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
+        <td id="LC13" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> time</td>
+      </tr>
+      <tr>
+        <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
+        <td id="LC14" class="blob-code blob-code-inner js-file-line"><span class="pl-k">from</span> datetime <span class="pl-k">import</span> datetime, timedelta, timezone</td>
+      </tr>
+      <tr>
+        <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
+        <td id="LC15" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
+        <td id="LC16" class="blob-code blob-code-inner js-file-line">fields <span class="pl-k">=</span> [<span class="pl-s"><span class="pl-pds">&#39;</span>id<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>author<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>score<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>title<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>selftext<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>_comments_by_id<span class="pl-pds">&#39;</span></span>,</td>
+      </tr>
+      <tr>
+        <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
+        <td id="LC17" class="blob-code blob-code-inner js-file-line">          <span class="pl-s"><span class="pl-pds">&#39;</span>created_utc<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>num_comments<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>num_crossposts<span class="pl-pds">&#39;</span></span>,</td>
+      </tr>
+      <tr>
+        <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
+        <td id="LC18" class="blob-code blob-code-inner js-file-line">          <span class="pl-s"><span class="pl-pds">&#39;</span>over_18<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>permalink<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>url<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>subreddit<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>subreddit_id<span class="pl-pds">&#39;</span></span>,</td>
+      </tr>
+      <tr>
+        <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
+        <td id="LC19" class="blob-code blob-code-inner js-file-line">          <span class="pl-s"><span class="pl-pds">&#39;</span>subreddit_subscribers<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>stickied<span class="pl-pds">&#39;</span></span>,</td>
+      </tr>
+      <tr>
+        <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
+        <td id="LC20" class="blob-code blob-code-inner js-file-line">          <span class="pl-s"><span class="pl-pds">&#39;</span>gilded<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>is_self<span class="pl-pds">&#39;</span></span>]</td>
+      </tr>
+      <tr>
+        <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
+        <td id="LC21" class="blob-code blob-code-inner js-file-line">all_fields <span class="pl-k">=</span> [<span class="pl-s"><span class="pl-pds">&#39;</span>comment_karma<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>link_karma<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>time_retrieved_utc<span class="pl-pds">&#39;</span></span>,</td>
+      </tr>
+      <tr>
+        <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
+        <td id="LC22" class="blob-code blob-code-inner js-file-line">              <span class="pl-s"><span class="pl-pds">&#39;</span>minutes<span class="pl-pds">&#39;</span></span>] <span class="pl-k">+</span> fields</td>
+      </tr>
+      <tr>
+        <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
+        <td id="LC23" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
+        <td id="LC24" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span> Time intervals to check each submission at:</span></td>
+      </tr>
+      <tr>
+        <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
+        <td id="LC25" class="blob-code blob-code-inner js-file-line">mins_list <span class="pl-k">=</span> [<span class="pl-c1">5</span>, <span class="pl-c1">10</span>, <span class="pl-c1">15</span>, <span class="pl-c1">30</span>, <span class="pl-c1">60</span>] <span class="pl-k">+</span> [<span class="pl-c1">120</span> <span class="pl-k">+</span> <span class="pl-c1">60</span> <span class="pl-k">*</span> k <span class="pl-k">for</span> k <span class="pl-k">in</span> <span class="pl-c1">range</span>(<span class="pl-c1">23</span>)]</td>
+      </tr>
+      <tr>
+        <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
+        <td id="LC26" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
+        <td id="LC27" class="blob-code blob-code-inner js-file-line"><span class="pl-k">def</span> <span class="pl-en">load_reddit</span>():</td>
+      </tr>
+      <tr>
+        <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
+        <td id="LC28" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span> The credentials in the Reddit instance below must be filled in, or stored in a separate .ini file</span></td>
+      </tr>
+      <tr>
+        <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
+        <td id="LC29" class="blob-code blob-code-inner js-file-line">    reddit <span class="pl-k">=</span> praw.Reddit(<span class="pl-v">user_agent</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&#39;</span><span class="pl-pds">&#39;</span></span>,</td>
+      </tr>
+      <tr>
+        <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
+        <td id="LC30" class="blob-code blob-code-inner js-file-line">                         <span class="pl-v">client_id</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&#39;</span><span class="pl-pds">&#39;</span></span>,</td>
+      </tr>
+      <tr>
+        <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
+        <td id="LC31" class="blob-code blob-code-inner js-file-line">                         <span class="pl-v">client_secret</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&#39;</span><span class="pl-pds">&#39;</span></span>,</td>
+      </tr>
+      <tr>
+        <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
+        <td id="LC32" class="blob-code blob-code-inner js-file-line">                         <span class="pl-v">username</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&#39;</span><span class="pl-pds">&#39;</span></span>,</td>
+      </tr>
+      <tr>
+        <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
+        <td id="LC33" class="blob-code blob-code-inner js-file-line">                         <span class="pl-v">password</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&#39;</span><span class="pl-pds">&#39;</span></span>)</td>
+      </tr>
+      <tr>
+        <td id="L34" class="blob-num js-line-number" data-line-number="34"></td>
+        <td id="LC34" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">return</span> reddit</td>
+      </tr>
+      <tr>
+        <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
+        <td id="LC35" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L36" class="blob-num js-line-number" data-line-number="36"></td>
+        <td id="LC36" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L37" class="blob-num js-line-number" data-line-number="37"></td>
+        <td id="LC37" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span> Store fields for current submission in a dict</span></td>
+      </tr>
+      <tr>
+        <td id="L38" class="blob-num js-line-number" data-line-number="38"></td>
+        <td id="LC38" class="blob-code blob-code-inner js-file-line"><span class="pl-k">def</span> <span class="pl-en">sub_to_dict</span>(<span class="pl-smi">sub</span>, <span class="pl-smi">t</span>, <span class="pl-smi">minutes</span>, <span class="pl-smi">use_karma</span> <span class="pl-k">=</span> <span class="pl-c1">False</span>):</td>
+      </tr>
+      <tr>
+        <td id="L39" class="blob-num js-line-number" data-line-number="39"></td>
+        <td id="LC39" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">global</span> fields</td>
+      </tr>
+      <tr>
+        <td id="L40" class="blob-num js-line-number" data-line-number="40"></td>
+        <td id="LC40" class="blob-code blob-code-inner js-file-line">    sub_dict <span class="pl-k">=</span> <span class="pl-c1">dict</span>()</td>
+      </tr>
+      <tr>
+        <td id="L41" class="blob-num js-line-number" data-line-number="41"></td>
+        <td id="LC41" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">for</span> field <span class="pl-k">in</span> fields:</td>
+      </tr>
+      <tr>
+        <td id="L42" class="blob-num js-line-number" data-line-number="42"></td>
+        <td id="LC42" class="blob-code blob-code-inner js-file-line">        sub_dict[field] <span class="pl-k">=</span> <span class="pl-c1">getattr</span>(sub, field)</td>
+      </tr>
+      <tr>
+        <td id="L43" class="blob-num js-line-number" data-line-number="43"></td>
+        <td id="LC43" class="blob-code blob-code-inner js-file-line">    sub_dict[<span class="pl-s"><span class="pl-pds">&#39;</span>time_retrieved_utc<span class="pl-pds">&#39;</span></span>] <span class="pl-k">=</span> <span class="pl-c1">int</span>(t.timestamp())</td>
+      </tr>
+      <tr>
+        <td id="L44" class="blob-num js-line-number" data-line-number="44"></td>
+        <td id="LC44" class="blob-code blob-code-inner js-file-line">    sub_dict[<span class="pl-s"><span class="pl-pds">&#39;</span>minutes<span class="pl-pds">&#39;</span></span>] <span class="pl-k">=</span> minutes</td>
+      </tr>
+      <tr>
+        <td id="L45" class="blob-num js-line-number" data-line-number="45"></td>
+        <td id="LC45" class="blob-code blob-code-inner js-file-line">    sub_dict[<span class="pl-s"><span class="pl-pds">&#39;</span>comment_karma<span class="pl-pds">&#39;</span></span>] <span class="pl-k">=</span> sub.author.comment_karma <span class="pl-k">if</span> use_karma <span class="pl-k">else</span> <span class="pl-s"><span class="pl-pds">&#39;</span><span class="pl-pds">&#39;</span></span></td>
+      </tr>
+      <tr>
+        <td id="L46" class="blob-num js-line-number" data-line-number="46"></td>
+        <td id="LC46" class="blob-code blob-code-inner js-file-line">    sub_dict[<span class="pl-s"><span class="pl-pds">&#39;</span>link_karma<span class="pl-pds">&#39;</span></span>] <span class="pl-k">=</span> sub.author.link_karma <span class="pl-k">if</span> use_karma <span class="pl-k">else</span> <span class="pl-s"><span class="pl-pds">&#39;</span><span class="pl-pds">&#39;</span></span></td>
+      </tr>
+      <tr>
+        <td id="L47" class="blob-num js-line-number" data-line-number="47"></td>
+        <td id="LC47" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">return</span> sub_dict</td>
+      </tr>
+      <tr>
+        <td id="L48" class="blob-num js-line-number" data-line-number="48"></td>
+        <td id="LC48" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L49" class="blob-num js-line-number" data-line-number="49"></td>
+        <td id="LC49" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span> Write submissions/fields to rows of the csv</span></td>
+      </tr>
+      <tr>
+        <td id="L50" class="blob-num js-line-number" data-line-number="50"></td>
+        <td id="LC50" class="blob-code blob-code-inner js-file-line"><span class="pl-k">def</span> <span class="pl-en">bulk_write_subs</span>(<span class="pl-smi">reddit</span>, <span class="pl-smi">writer</span>, <span class="pl-smi">fullnames</span>, <span class="pl-smi">q_entries</span>, <span class="pl-smi">t</span>) :</td>
+      </tr>
+      <tr>
+        <td id="L51" class="blob-num js-line-number" data-line-number="51"></td>
+        <td id="LC51" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">global</span> mins_list</td>
+      </tr>
+      <tr>
+        <td id="L52" class="blob-num js-line-number" data-line-number="52"></td>
+        <td id="LC52" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">try</span> :</td>
+      </tr>
+      <tr>
+        <td id="L53" class="blob-num js-line-number" data-line-number="53"></td>
+        <td id="LC53" class="blob-code blob-code-inner js-file-line">        subs <span class="pl-k">=</span> reddit.info(fullnames)</td>
+      </tr>
+      <tr>
+        <td id="L54" class="blob-num js-line-number" data-line-number="54"></td>
+        <td id="LC54" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">for</span> i,sub <span class="pl-k">in</span> <span class="pl-c1">enumerate</span>(subs) :</td>
+      </tr>
+      <tr>
+        <td id="L55" class="blob-num js-line-number" data-line-number="55"></td>
+        <td id="LC55" class="blob-code blob-code-inner js-file-line">            writer.writerow(sub_to_dict(sub,t,mins_list[q_entries[i][<span class="pl-c1">1</span>]]))</td>
+      </tr>
+      <tr>
+        <td id="L56" class="blob-num js-line-number" data-line-number="56"></td>
+        <td id="LC56" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">except</span> <span class="pl-c1">Exception</span> <span class="pl-k">as</span> e:</td>
+      </tr>
+      <tr>
+        <td id="L57" class="blob-num js-line-number" data-line-number="57"></td>
+        <td id="LC57" class="blob-code blob-code-inner js-file-line">        exc_info <span class="pl-k">=</span> sys.exc_info()</td>
+      </tr>
+      <tr>
+        <td id="L58" class="blob-num js-line-number" data-line-number="58"></td>
+        <td id="LC58" class="blob-code blob-code-inner js-file-line">        traceback.print_exception(<span class="pl-k">*</span>exc_info)</td>
+      </tr>
+      <tr>
+        <td id="L59" class="blob-num js-line-number" data-line-number="59"></td>
+        <td id="LC59" class="blob-code blob-code-inner js-file-line">        <span class="pl-c1">print</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>Info Exception<span class="pl-pds">&#39;</span></span>, e)</td>
+      </tr>
+      <tr>
+        <td id="L60" class="blob-num js-line-number" data-line-number="60"></td>
+        <td id="LC60" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">raise</span> e</td>
+      </tr>
+      <tr>
+        <td id="L61" class="blob-num js-line-number" data-line-number="61"></td>
+        <td id="LC61" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L62" class="blob-num js-line-number" data-line-number="62"></td>
+        <td id="LC62" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span> Get new submissions</span></td>
+      </tr>
+      <tr>
+        <td id="L63" class="blob-num js-line-number" data-line-number="63"></td>
+        <td id="LC63" class="blob-code blob-code-inner js-file-line"><span class="pl-k">def</span> <span class="pl-en">stream_processor</span>(<span class="pl-smi">subred</span>, <span class="pl-smi">q</span>):</td>
+      </tr>
+      <tr>
+        <td id="L64" class="blob-num js-line-number" data-line-number="64"></td>
+        <td id="LC64" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">global</span> all_fields, mins_list</td>
+      </tr>
+      <tr>
+        <td id="L65" class="blob-num js-line-number" data-line-number="65"></td>
+        <td id="LC65" class="blob-code blob-code-inner js-file-line">    reddit <span class="pl-k">=</span> load_reddit()</td>
+      </tr>
+      <tr>
+        <td id="L66" class="blob-num js-line-number" data-line-number="66"></td>
+        <td id="LC66" class="blob-code blob-code-inner js-file-line">    fname <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&#39;</span>stream_<span class="pl-c1">%s</span>_<span class="pl-c1">%s</span>.csv<span class="pl-pds">&#39;</span></span> <span class="pl-k">%</span> (subred, datetime.now().strftime(<span class="pl-s"><span class="pl-pds">&#39;</span>%Y-%m-<span class="pl-c1">%d</span>_%H%M%S<span class="pl-pds">&#39;</span></span>))</td>
+      </tr>
+      <tr>
+        <td id="L67" class="blob-num js-line-number" data-line-number="67"></td>
+        <td id="LC67" class="blob-code blob-code-inner js-file-line">    has_started <span class="pl-k">=</span> <span class="pl-c1">False</span></td>
+      </tr>
+      <tr>
+        <td id="L68" class="blob-num js-line-number" data-line-number="68"></td>
+        <td id="LC68" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">try</span>:</td>
+      </tr>
+      <tr>
+        <td id="L69" class="blob-num js-line-number" data-line-number="69"></td>
+        <td id="LC69" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">with</span> <span class="pl-c1">open</span>(fname, <span class="pl-s"><span class="pl-pds">&#39;</span>w<span class="pl-pds">&#39;</span></span>, <span class="pl-v">newline</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&#39;</span><span class="pl-pds">&#39;</span></span>, <span class="pl-v">encoding</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&#39;</span>utf-8<span class="pl-pds">&#39;</span></span>, <span class="pl-v">buffering</span><span class="pl-k">=</span><span class="pl-c1">1</span>) <span class="pl-k">as</span> out_file:</td>
+      </tr>
+      <tr>
+        <td id="L70" class="blob-num js-line-number" data-line-number="70"></td>
+        <td id="LC70" class="blob-code blob-code-inner js-file-line">            writer <span class="pl-k">=</span> csv.DictWriter(out_file, <span class="pl-v">fieldnames</span><span class="pl-k">=</span>all_fields)</td>
+      </tr>
+      <tr>
+        <td id="L71" class="blob-num js-line-number" data-line-number="71"></td>
+        <td id="LC71" class="blob-code blob-code-inner js-file-line">            writer.writeheader()</td>
+      </tr>
+      <tr>
+        <td id="L72" class="blob-num js-line-number" data-line-number="72"></td>
+        <td id="LC72" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">for</span> submission <span class="pl-k">in</span> reddit.subreddit(subred).stream.submissions():</td>
+      </tr>
+      <tr>
+        <td id="L73" class="blob-num js-line-number" data-line-number="73"></td>
+        <td id="LC73" class="blob-code blob-code-inner js-file-line">                t <span class="pl-k">=</span> datetime.now().astimezone()</td>
+      </tr>
+      <tr>
+        <td id="L74" class="blob-num js-line-number" data-line-number="74"></td>
+        <td id="LC74" class="blob-code blob-code-inner js-file-line">                sub_dict <span class="pl-k">=</span> sub_to_dict(submission, t, <span class="pl-c1">0</span>, <span class="pl-v">use_karma</span><span class="pl-k">=</span><span class="pl-c1">True</span>)</td>
+      </tr>
+      <tr>
+        <td id="L75" class="blob-num js-line-number" data-line-number="75"></td>
+        <td id="LC75" class="blob-code blob-code-inner js-file-line">                t_c <span class="pl-k">=</span> datetime.utcfromtimestamp(sub_dict[<span class="pl-s"><span class="pl-pds">&#39;</span>created_utc<span class="pl-pds">&#39;</span></span>])</td>
+      </tr>
+      <tr>
+        <td id="L76" class="blob-num js-line-number" data-line-number="76"></td>
+        <td id="LC76" class="blob-code blob-code-inner js-file-line">                t_c <span class="pl-k">=</span> t_c.replace(<span class="pl-v">tzinfo</span><span class="pl-k">=</span>timezone.utc)</td>
+      </tr>
+      <tr>
+        <td id="L77" class="blob-num js-line-number" data-line-number="77"></td>
+        <td id="LC77" class="blob-code blob-code-inner js-file-line">                t_c <span class="pl-k">=</span> t_c.astimezone()</td>
+      </tr>
+      <tr>
+        <td id="L78" class="blob-num js-line-number" data-line-number="78"></td>
+        <td id="LC78" class="blob-code blob-code-inner js-file-line">                <span class="pl-k">if</span> t_c <span class="pl-k">+</span> timedelta(<span class="pl-v">minutes</span><span class="pl-k">=</span><span class="pl-c1">1</span>) <span class="pl-k">&gt;</span> t:</td>
+      </tr>
+      <tr>
+        <td id="L79" class="blob-num js-line-number" data-line-number="79"></td>
+        <td id="LC79" class="blob-code blob-code-inner js-file-line">                    has_started <span class="pl-k">=</span> <span class="pl-c1">True</span></td>
+      </tr>
+      <tr>
+        <td id="L80" class="blob-num js-line-number" data-line-number="80"></td>
+        <td id="LC80" class="blob-code blob-code-inner js-file-line">                <span class="pl-k">if</span> has_started:</td>
+      </tr>
+      <tr>
+        <td id="L81" class="blob-num js-line-number" data-line-number="81"></td>
+        <td id="LC81" class="blob-code blob-code-inner js-file-line">                    writer.writerow(sub_dict)</td>
+      </tr>
+      <tr>
+        <td id="L82" class="blob-num js-line-number" data-line-number="82"></td>
+        <td id="LC82" class="blob-code blob-code-inner js-file-line">                    q_entry <span class="pl-k">=</span> (t <span class="pl-k">+</span> timedelta(<span class="pl-v">minutes</span><span class="pl-k">=</span>mins_list[<span class="pl-c1">0</span>]), <span class="pl-c1">0</span>, sub_dict[<span class="pl-s"><span class="pl-pds">&#39;</span>id<span class="pl-pds">&#39;</span></span>], submission.fullname)</td>
+      </tr>
+      <tr>
+        <td id="L83" class="blob-num js-line-number" data-line-number="83"></td>
+        <td id="LC83" class="blob-code blob-code-inner js-file-line">                    q.put(q_entry)</td>
+      </tr>
+      <tr>
+        <td id="L84" class="blob-num js-line-number" data-line-number="84"></td>
+        <td id="LC84" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">except</span> <span class="pl-c1">Exception</span> <span class="pl-k">as</span> e:</td>
+      </tr>
+      <tr>
+        <td id="L85" class="blob-num js-line-number" data-line-number="85"></td>
+        <td id="LC85" class="blob-code blob-code-inner js-file-line">        exc_info <span class="pl-k">=</span> sys.exc_info()</td>
+      </tr>
+      <tr>
+        <td id="L86" class="blob-num js-line-number" data-line-number="86"></td>
+        <td id="LC86" class="blob-code blob-code-inner js-file-line">        traceback.print_exception(<span class="pl-k">*</span>exc_info)</td>
+      </tr>
+      <tr>
+        <td id="L87" class="blob-num js-line-number" data-line-number="87"></td>
+        <td id="LC87" class="blob-code blob-code-inner js-file-line">        <span class="pl-c1">print</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>Stream Exception<span class="pl-pds">&#39;</span></span>, e)</td>
+      </tr>
+      <tr>
+        <td id="L88" class="blob-num js-line-number" data-line-number="88"></td>
+        <td id="LC88" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">raise</span> e</td>
+      </tr>
+      <tr>
+        <td id="L89" class="blob-num js-line-number" data-line-number="89"></td>
+        <td id="LC89" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L90" class="blob-num js-line-number" data-line-number="90"></td>
+        <td id="LC90" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span> Get updated fields of old submissions</span></td>
+      </tr>
+      <tr>
+        <td id="L91" class="blob-num js-line-number" data-line-number="91"></td>
+        <td id="LC91" class="blob-code blob-code-inner js-file-line"><span class="pl-k">def</span> <span class="pl-en">score_processor</span>(<span class="pl-smi">subred</span>, <span class="pl-smi">q</span>):</td>
+      </tr>
+      <tr>
+        <td id="L92" class="blob-num js-line-number" data-line-number="92"></td>
+        <td id="LC92" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">global</span> all_fields, mins_list</td>
+      </tr>
+      <tr>
+        <td id="L93" class="blob-num js-line-number" data-line-number="93"></td>
+        <td id="LC93" class="blob-code blob-code-inner js-file-line">    pq <span class="pl-k">=</span> queue.PriorityQueue()</td>
+      </tr>
+      <tr>
+        <td id="L94" class="blob-num js-line-number" data-line-number="94"></td>
+        <td id="LC94" class="blob-code blob-code-inner js-file-line">    reddit <span class="pl-k">=</span> load_reddit()</td>
+      </tr>
+      <tr>
+        <td id="L95" class="blob-num js-line-number" data-line-number="95"></td>
+        <td id="LC95" class="blob-code blob-code-inner js-file-line">    fname <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&#39;</span>score_<span class="pl-c1">%s</span>_<span class="pl-c1">%s</span>.csv<span class="pl-pds">&#39;</span></span> <span class="pl-k">%</span> (subred, datetime.now().strftime(<span class="pl-s"><span class="pl-pds">&#39;</span>%Y-%m-<span class="pl-c1">%d</span>_%H%M%S<span class="pl-pds">&#39;</span></span>))</td>
+      </tr>
+      <tr>
+        <td id="L96" class="blob-num js-line-number" data-line-number="96"></td>
+        <td id="LC96" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">try</span>:</td>
+      </tr>
+      <tr>
+        <td id="L97" class="blob-num js-line-number" data-line-number="97"></td>
+        <td id="LC97" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">with</span> <span class="pl-c1">open</span>(fname, <span class="pl-s"><span class="pl-pds">&#39;</span>w<span class="pl-pds">&#39;</span></span>, <span class="pl-v">newline</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&#39;</span><span class="pl-pds">&#39;</span></span>, <span class="pl-v">encoding</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&#39;</span>utf-8<span class="pl-pds">&#39;</span></span>, <span class="pl-v">buffering</span><span class="pl-k">=</span><span class="pl-c1">1</span>) <span class="pl-k">as</span> out_file:</td>
+      </tr>
+      <tr>
+        <td id="L98" class="blob-num js-line-number" data-line-number="98"></td>
+        <td id="LC98" class="blob-code blob-code-inner js-file-line">            writer <span class="pl-k">=</span> csv.DictWriter(out_file, <span class="pl-v">fieldnames</span><span class="pl-k">=</span>all_fields)</td>
+      </tr>
+      <tr>
+        <td id="L99" class="blob-num js-line-number" data-line-number="99"></td>
+        <td id="LC99" class="blob-code blob-code-inner js-file-line">            writer.writeheader()</td>
+      </tr>
+      <tr>
+        <td id="L100" class="blob-num js-line-number" data-line-number="100"></td>
+        <td id="LC100" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">while</span> <span class="pl-c1">True</span>:</td>
+      </tr>
+      <tr>
+        <td id="L101" class="blob-num js-line-number" data-line-number="101"></td>
+        <td id="LC101" class="blob-code blob-code-inner js-file-line">                t <span class="pl-k">=</span> datetime.now().astimezone()</td>
+      </tr>
+      <tr>
+        <td id="L102" class="blob-num js-line-number" data-line-number="102"></td>
+        <td id="LC102" class="blob-code blob-code-inner js-file-line">                <span class="pl-k">if</span> <span class="pl-k">not</span> q.empty():</td>
+      </tr>
+      <tr>
+        <td id="L103" class="blob-num js-line-number" data-line-number="103"></td>
+        <td id="LC103" class="blob-code blob-code-inner js-file-line">                    pq.put(q.get())</td>
+      </tr>
+      <tr>
+        <td id="L104" class="blob-num js-line-number" data-line-number="104"></td>
+        <td id="LC104" class="blob-code blob-code-inner js-file-line">                <span class="pl-k">if</span> <span class="pl-k">not</span> pq.empty():</td>
+      </tr>
+      <tr>
+        <td id="L105" class="blob-num js-line-number" data-line-number="105"></td>
+        <td id="LC105" class="blob-code blob-code-inner js-file-line">                    q_entries <span class="pl-k">=</span> []</td>
+      </tr>
+      <tr>
+        <td id="L106" class="blob-num js-line-number" data-line-number="106"></td>
+        <td id="LC106" class="blob-code blob-code-inner js-file-line">                    <span class="pl-k">while</span> <span class="pl-c1">len</span>(q_entries) <span class="pl-k">&lt;</span> <span class="pl-c1">100</span> <span class="pl-k">and</span> pq.queue[<span class="pl-c1">0</span>][<span class="pl-c1">0</span>] <span class="pl-k">&lt;</span> t:</td>
+      </tr>
+      <tr>
+        <td id="L107" class="blob-num js-line-number" data-line-number="107"></td>
+        <td id="LC107" class="blob-code blob-code-inner js-file-line">                        q_entries.append(pq.get())</td>
+      </tr>
+      <tr>
+        <td id="L108" class="blob-num js-line-number" data-line-number="108"></td>
+        <td id="LC108" class="blob-code blob-code-inner js-file-line">                    <span class="pl-k">if</span> q_entries:</td>
+      </tr>
+      <tr>
+        <td id="L109" class="blob-num js-line-number" data-line-number="109"></td>
+        <td id="LC109" class="blob-code blob-code-inner js-file-line">                        fullnames <span class="pl-k">=</span> [<span class="pl-c1">str</span>(a[<span class="pl-c1">3</span>]) <span class="pl-k">for</span> a <span class="pl-k">in</span> q_entries]</td>
+      </tr>
+      <tr>
+        <td id="L110" class="blob-num js-line-number" data-line-number="110"></td>
+        <td id="LC110" class="blob-code blob-code-inner js-file-line">                        <span class="pl-c1">print</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>fullnames<span class="pl-pds">&#39;</span></span>,fullnames)</td>
+      </tr>
+      <tr>
+        <td id="L111" class="blob-num js-line-number" data-line-number="111"></td>
+        <td id="LC111" class="blob-code blob-code-inner js-file-line">                        sys.stdout.flush()</td>
+      </tr>
+      <tr>
+        <td id="L112" class="blob-num js-line-number" data-line-number="112"></td>
+        <td id="LC112" class="blob-code blob-code-inner js-file-line">                        bulk_write_subs(reddit, writer, fullnames, q_entries, t)</td>
+      </tr>
+      <tr>
+        <td id="L113" class="blob-num js-line-number" data-line-number="113"></td>
+        <td id="LC113" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L114" class="blob-num js-line-number" data-line-number="114"></td>
+        <td id="LC114" class="blob-code blob-code-inner js-file-line">                        <span class="pl-k">for</span> (q_t, idx, sub_id, fullname) <span class="pl-k">in</span> q_entries :</td>
+      </tr>
+      <tr>
+        <td id="L115" class="blob-num js-line-number" data-line-number="115"></td>
+        <td id="LC115" class="blob-code blob-code-inner js-file-line">                            <span class="pl-k">if</span> idx <span class="pl-k">+</span> <span class="pl-c1">1</span> <span class="pl-k">&lt;</span> <span class="pl-c1">len</span>(mins_list):</td>
+      </tr>
+      <tr>
+        <td id="L116" class="blob-num js-line-number" data-line-number="116"></td>
+        <td id="LC116" class="blob-code blob-code-inner js-file-line">                                delta <span class="pl-k">=</span> timedelta(<span class="pl-v">minutes</span><span class="pl-k">=</span>mins_list[idx <span class="pl-k">+</span> <span class="pl-c1">1</span>] <span class="pl-k">-</span> mins_list[idx])</td>
+      </tr>
+      <tr>
+        <td id="L117" class="blob-num js-line-number" data-line-number="117"></td>
+        <td id="LC117" class="blob-code blob-code-inner js-file-line">                                q_entry <span class="pl-k">=</span> (t <span class="pl-k">+</span> delta, idx <span class="pl-k">+</span> <span class="pl-c1">1</span>, sub_id, fullname)</td>
+      </tr>
+      <tr>
+        <td id="L118" class="blob-num js-line-number" data-line-number="118"></td>
+        <td id="LC118" class="blob-code blob-code-inner js-file-line">                                pq.put(q_entry)</td>
+      </tr>
+      <tr>
+        <td id="L119" class="blob-num js-line-number" data-line-number="119"></td>
+        <td id="LC119" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">except</span> <span class="pl-c1">Exception</span> <span class="pl-k">as</span> e:</td>
+      </tr>
+      <tr>
+        <td id="L120" class="blob-num js-line-number" data-line-number="120"></td>
+        <td id="LC120" class="blob-code blob-code-inner js-file-line">        exc_info <span class="pl-k">=</span> sys.exc_info()</td>
+      </tr>
+      <tr>
+        <td id="L121" class="blob-num js-line-number" data-line-number="121"></td>
+        <td id="LC121" class="blob-code blob-code-inner js-file-line">        traceback.print_exception(<span class="pl-k">*</span>exc_info)</td>
+      </tr>
+      <tr>
+        <td id="L122" class="blob-num js-line-number" data-line-number="122"></td>
+        <td id="LC122" class="blob-code blob-code-inner js-file-line">        <span class="pl-c1">print</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>Score Exception<span class="pl-pds">&#39;</span></span>, e)</td>
+      </tr>
+      <tr>
+        <td id="L123" class="blob-num js-line-number" data-line-number="123"></td>
+        <td id="LC123" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">raise</span> e</td>
+      </tr>
+      <tr>
+        <td id="L124" class="blob-num js-line-number" data-line-number="124"></td>
+        <td id="LC124" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L125" class="blob-num js-line-number" data-line-number="125"></td>
+        <td id="LC125" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L126" class="blob-num js-line-number" data-line-number="126"></td>
+        <td id="LC126" class="blob-code blob-code-inner js-file-line"><span class="pl-k">def</span> <span class="pl-en">main</span>():</td>
+      </tr>
+      <tr>
+        <td id="L127" class="blob-num js-line-number" data-line-number="127"></td>
+        <td id="LC127" class="blob-code blob-code-inner js-file-line">    q <span class="pl-k">=</span> mp.Queue()</td>
+      </tr>
+      <tr>
+        <td id="L128" class="blob-num js-line-number" data-line-number="128"></td>
+        <td id="LC128" class="blob-code blob-code-inner js-file-line">    <span class="pl-c"><span class="pl-c">#</span> Subreddits can be entered as a command line argument, or hard-coded.</span></td>
+      </tr>
+      <tr>
+        <td id="L129" class="blob-num js-line-number" data-line-number="129"></td>
+        <td id="LC129" class="blob-code blob-code-inner js-file-line">    <span class="pl-c"><span class="pl-c">#</span> In either case, multiple subreddits should be separated by &#39;+&#39; as the line below shows.</span></td>
+      </tr>
+      <tr>
+        <td id="L130" class="blob-num js-line-number" data-line-number="130"></td>
+        <td id="LC130" class="blob-code blob-code-inner js-file-line">    <span class="pl-c"><span class="pl-c">#</span>subred = sys.argv[1]</span></td>
+      </tr>
+      <tr>
+        <td id="L131" class="blob-num js-line-number" data-line-number="131"></td>
+        <td id="LC131" class="blob-code blob-code-inner js-file-line">    subred <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&#39;</span>AskReddit+Pics+Gifs+Videos+WorldNews+Funny+Aww+gaming<span class="pl-pds">&#39;</span></span></td>
+      </tr>
+      <tr>
+        <td id="L132" class="blob-num js-line-number" data-line-number="132"></td>
+        <td id="LC132" class="blob-code blob-code-inner js-file-line">    mp.Process(<span class="pl-v">target</span><span class="pl-k">=</span>score_processor, <span class="pl-v">args</span><span class="pl-k">=</span>(subred, q)).start()</td>
+      </tr>
+      <tr>
+        <td id="L133" class="blob-num js-line-number" data-line-number="133"></td>
+        <td id="LC133" class="blob-code blob-code-inner js-file-line">    mp.Process(<span class="pl-v">target</span><span class="pl-k">=</span>stream_processor, <span class="pl-v">args</span><span class="pl-k">=</span>(subred, q)).start()</td>
+      </tr>
+      <tr>
+        <td id="L134" class="blob-num js-line-number" data-line-number="134"></td>
+        <td id="LC134" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L135" class="blob-num js-line-number" data-line-number="135"></td>
+        <td id="LC135" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L136" class="blob-num js-line-number" data-line-number="136"></td>
+        <td id="LC136" class="blob-code blob-code-inner js-file-line"><span class="pl-k">if</span> <span class="pl-c1">__name__</span> <span class="pl-k">==</span> <span class="pl-s"><span class="pl-pds">&quot;</span>__main__<span class="pl-pds">&quot;</span></span>:</td>
+      </tr>
+      <tr>
+        <td id="L137" class="blob-num js-line-number" data-line-number="137"></td>
+        <td id="LC137" class="blob-code blob-code-inner js-file-line">    main()</td>
+      </tr>
+</table>
+
+  <details class="details-reset details-overlay BlobToolbar position-absolute js-file-line-actions dropdown d-none" aria-hidden="true">
+    <summary class="btn-octicon ml-0 px-2 p-0 bg-white border border-gray-dark rounded-1" aria-label="Inline file action toolbar">
+      <svg class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM13 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/></svg>
+    </summary>
+    <details-menu>
+      <ul class="BlobToolbar-dropdown dropdown-menu dropdown-menu-se mt-2" style="width:185px">
+        <li><clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-lines" style="cursor:pointer;" data-original-text="Copy lines">Copy lines</clipboard-copy></li>
+        <li><clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-permalink" style="cursor:pointer;" data-original-text="Copy permalink">Copy permalink</clipboard-copy></li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/rb2540/RADS/blame/1e1d321a18e8ead96141879a5c1f088e8ac1bdb2/Reddit_Submission_Scraper.py">View git blame</a></li>
+          <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/rb2540/RADS/issues/new">Reference in new issue</a></li>
+      </ul>
+    </details-menu>
+  </details>
+
   </div>
 
     </div>
@@ -968,7 +1484,7 @@ but commented out.</p>
 <div class="footer container-lg width-full px-3" role="contentinfo">
   <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
     <ul class="list-style-none d-flex flex-wrap ">
-      <li class="mr-3">&copy; 2019 <span title="0.32068s from unicorn-7c84c8d8c5-9nb9h">GitHub</span>, Inc.</li>
+      <li class="mr-3">&copy; 2019 <span title="0.37606s from unicorn-7c84c8d8c5-qvz9z">GitHub</span>, Inc.</li>
         <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
         <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
         <li class="mr-3"><a data-ga-click="Footer, go to security, text:security" href="https://github.com/security">Security</a></li>
